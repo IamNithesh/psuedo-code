@@ -10,16 +10,36 @@
     cursor: pointer;
 
 }
+
+.blog-btn{
+    background-color: crimson;
 }
+}
+
+
+
+
+
 @media (max-width:786px)
 {
 .blog-container
 {
     font-family: 'Poppins', sans-serif;
-    width:800px;
+    width:auto;
     margin: 50px auto;
     cursor: pointer;
+    padding: 10px;
 
+}
+
+.title{
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.blog-btn{
+    background-color: blueviolet;
 }
 }
 /* .blog-container
@@ -38,7 +58,7 @@
 .blog-btn
 {
     width: 100%;
-    background-color: crimson;
+    /* background-color: crimson; */
     color: white;
     font-weight: 700;
     border: none;
